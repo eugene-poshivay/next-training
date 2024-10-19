@@ -102,13 +102,26 @@ html,
 body {
     max-width: 100vw;
     overflow-x: hidden;
-    background-color: #111;
-    color: #bbb;
+    /* background-color: #111;
+    color: #bbb; */
+}
+.theme {
+    transition: 1s all ease;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.light {
+    background-color: white;
+    color: #111;
+}
+
+.dark {
+    background-color: #111;
+    color: #bbb;
 }
 
 .container {
@@ -152,12 +165,30 @@ a {
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/DarkModeToggle/DarkModeTpggle.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/DarkModeToggle/darkModeToggle.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************/
-.DarkModeTpggle_container__eg0f6 {
+.darkModeToggle_container__GBEYK {
     width: 42px;
     height: 24px;
     border: 1.5px solid #53c28b70;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.darkModeToggle_icon__6_uhw {
+    font-size: 12px;
+}
+
+.darkModeToggle_ball__m2soT {
+    width: 15px;
+    height: 15px;
+    background-color: #53c28b;
+    border-radius: 50%;
+    position: absolute;
 }
 
