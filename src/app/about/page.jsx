@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
-import Leptop from '@/public/leptop.jpg'
-import Button from '@/src/components/Button/Button'
+import Leptop from '@/../public/leptop.jpg'
+import Button from '@/components/Button/Button'
 
 const About = () => {
     return (
