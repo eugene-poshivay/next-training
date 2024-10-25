@@ -1,5 +1,9 @@
 {
-  "/dashboard/page": "app/dashboard/page.js",
-  "/portfolio/[category]/page": "app/portfolio/[category]/page.js",
+  "/page": "app/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/api/posts/route": "app/api/posts/route.js",
+  "/api/posts/[id]/route": "app/api/posts/[id]/route.js",
   "/portfolio/page": "app/portfolio/page.js"
 }
